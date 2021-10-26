@@ -27,6 +27,11 @@
     left: -100%;
     transition: 850ms;
 }
+/* toggle class */
+.nav-menu.active{
+    left: 0;
+    transition: 350ms;
+}
 .navbar a{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -40,11 +45,7 @@
     color: hsl(49, 100%, 55%);
   
 }
-/* toggle class */
-.nav-menu.active{
-    left: 0;
-    transition: 350ms;
-}
+
 .nav-text{
     display: flex;
     justify-content: start;

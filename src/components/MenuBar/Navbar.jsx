@@ -21,7 +21,6 @@ const Navbar = () => {
          <div className="navbar">
             <Link to="#" className="menu-bars">
                 <FaIcons.FaBars onClick={showSidebar}/>
-              
             </Link>
             <Link to="/">
             <span className="logo">D2D</span>
